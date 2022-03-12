@@ -32,11 +32,26 @@
 </template>
 
 <script>
+import { inject } from 'vue'
+
 export default {
   name: 'HelloWorld',
   props: {
     msg: String
-  }
+  },
+  mounted() {
+    setTimeout(() => {
+      this.$gAuth.signIn()
+    }, 2000)
+  },
+  setup() {
+    const Vue3GoogleOauth = inject("Vue3GoogleOauth");
+    const handleClickLogin = () => {};
+    return {
+      Vue3GoogleOauth,
+      handleClickLogin,
+    };
+  },
 }
 </script>
 
