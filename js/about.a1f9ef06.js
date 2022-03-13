@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkfoodtrucks"]=self["webpackChunkfoodtrucks"]||[]).push([[443],{2749:function(r,n,s){s.r(n),s.d(n,{default:function(){return d}});var t=s(3396);const u={class:"dashboard"};function c(r,n){return(0,t.wg)(),(0,t.iD)("div",u)}var e=s(89);const o={},a=(0,e.Z)(o,[["render",c]]);var d=a}}]);
+//# sourceMappingURL=about.a1f9ef06.js.map
